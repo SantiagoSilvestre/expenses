@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
 
 class Chart extends StatelessWidget {
-  const Chart({super.key, required this.recentTransactions});
+  const Chart({
+    super.key,
+    required this.recentTransactions,
+  });
 
   final List<Transaction> recentTransactions;
 
